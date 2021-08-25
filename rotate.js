@@ -17,7 +17,7 @@ function* range(start, end, step = 1) {
 
 const arrayToMatrix = (arr, n) => {
     const twoDArray = [];
-    for (let i = 0; i < arr.length; i += n) {
+    for (const i of range(0, arr.length - 1, n)) {
         twoDArray.push(arr.slice(i, i + n));
     }
     return twoDArray;
