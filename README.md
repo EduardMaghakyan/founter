@@ -6,7 +6,7 @@ npm install
 ```
 
 ### Run tests
-Currently there is only one high level test impemented, that simple checks the output of command agains the execpted one.
+Currently there is only one high level test impemented, that simply checks the output of command agains the execpted one.
 
 There are no unit tests added for helper functions.
 
