@@ -19,7 +19,11 @@ node test.js
 node rotate.js testData.csv
 ```
 
+### Notes
+Initially I solved the core logic of challenge(`rotateMatrix` function) in Python and then basically translated the code to JS.
+That's why I wrote function `range`, it's written as a generator to avoid too much waste of space.
+
 ### To-Do
-- Test on large dataset
+- No real benchmarking was done
 - Unit tests are missing
 - No code linting was done
